@@ -5,8 +5,8 @@ from selenium.webdriver.common.by import By
 
 def extract_reviews(product_url, num_reviews_to_scrape=10):
     # Calling the driver
-    driver = webdriver.Chrome()  # You should have ChromeDriver installed and in your PATH
-
+    driver = webdriver.Chrome()  
+    
     # Requesting the Amazon product's url
     driver.get(product_url)
 
